@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="fr">
+    <title>Wild Circus</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+      <h1>Wild Circus</h1>
+      <nav>
+        <ul class="un">
+            <li><a href="#Performances">Performances</a></li>
+            <li><a href="#About_Us">About us</a></li>
+            <li><a href="#Prices">Prices</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <section>
+      <h2 id="Performances">Performances</h2>
+      <p>
+      <img src="https://previews.dropbox.com/p/thumb/AAPJ5AyT5EvABcwgCURX8bb1HyaQHnrzsIx0ifzjfOoVdILBpqdetVbSBiaebO-ZqgV-hy-myuKw_ZHgYiCSr9EKHCzhdk1PtTpFUyxDhbSrD9Ng4Rvd4ZYdvKROIfDyhRTsEn6LDs2zv5VQDpEyUPyaVw2z9CQ0NHzU5iD7fUshF1Dw1GYkuENPC4R-WRwrXqcXdi9gorsRRuBkBeO9_Sa1rgyV75vG16C75scotOwKDw/p.jpeg?size=1280x960&size_mode=3" alt="clown"/>
+      </p>
+      <ul class="deux">
+        <!-- performance 1 -->
+        <li>
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+        <!-- performance 2 -->
+         <li>
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <!-- performance 3 -->
+         <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="About_Us">About us</h2>
+      <p>What about the WILD CIRCUS? Come discover the most spectacular circus in Indre-et-Loir. </br>
+        Since 1994, The WILD CIRCUS let children and adults dream during a new show every year during two hours!!
+      Low prices, good seats, incredible show and delicious pop-corn are the definition of The WILD CIRCUS. </p>
+      <p>
+        <img src="https://previews.dropbox.com/p/thumb/AAOd_rGbbtS5mCpxiS261oCpxhtPMgUgOdNh0hQICsF7HdjQRewuXSq-9Y1v3OqvRM3QSAyT7TsuauU-FHJQahlquzRe5hU2RCQYR5F61LveHBm7NtwZE-ZO-Ij1dRlRPo_mx1bfNwmV3NmK0XY2JqUgau8SjhnrLqMrnqLGLSo16bxSMhIpSutk6GGWZCPak2jJ15O8gQc6Tc_xjSgyMtH-5LO2Wj-gRbtjr9IKey9NeQ/p.jpeg?size=1280x960&size_mode=3" alt="cirque"/>
+      </p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="Prices">Prices</h2>
+       <p>
+        <img src="https://previews.dropbox.com/p/thumb/AANE-jvD1emES55kVjwyqWo9l8vIQHFD71JgUXL9as7c5PFc4tlI0cYX8hGE4CKpZb2JOVs88XuJL_tfqFA9_YxPWJa7NajNjGiRpmr1HRl9nu3MeT0RzPrKrvG5Z-YM1pHaWMRr1WTeRMgo0w_uNiNOwg0k6qfby5e-s8QPTPA3dteeoT79YQpw2BTRtCGMPBB2B7fARwaFswg9KCweqHsa5FrBUOCWqgy2rwHxvCASiw/p.jpeg?size=1280x960&size_mode=3" alt="tickets"/>
+         </p>
+              <Table>
+          <tr>
+            <th>Days</th>
+            <th>Adults</th>
+            <th>Children less than 8 years</th>
+            <th>Group (more than 10 persons)</th>
+            <th>School</th>
+          </tr>
+
+          <tr>
+            <td>Week without Wednesday</td>
+            <td>8€</td>
+            <td>6€</td>
+            <td>7€/person</td>
+            <td>4€/pupil</td>
+          </tr>
+
+          <tr>
+            <td>Week-end and wednesday</td>
+            <td>15€</td> 
+            <td>12€</td>
+            <td>13€/person</td>
+            <td>8€/pupil</td>
+          </tr>
+        </Table>
+        
+
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="Contact">Contact Us</h2>
+
+      <form method="post" action="contact.php">
+        <p>
+          <label for="email">your email:</label>
+          <input id="email" type="email" name="email" />
+          </br>
+          <label for="contact1">Message:</label>
+          <textarea name="contact1" id="contact1" rows="10" cols="50">
+Let us a word...
+          </textarea>
+        </br>
+          <input id="boutton" type="submit" value="submit" />
+        </p>
+        <p>
+        <img src="https://previews.dropbox.com/p/thumb/AANENHBgePR3Aqt1B9OGV9oFggGNr2OyPmCof2e-EdEkdyxteew7zooTPufT7u7-ptis6a4EsHFBMRUkicbYmLsBh2L2qS4EFlabiCpv1P2y_egMcl5snSuMPO0N4C0lklTscxb3e_kXH0KQ4q7i0TdUxqjmdwKd8m8C5ZS9YlWP1D0lepT8Pf6gPia3BQMlgyj9af6qKW6QLFTZexbJW_4FO1mHeKJA3bbLJV4zXQ9HjQ/p.jpeg?size=1280x960&size_mode=3" alt="contact"/>
+         </p>
+
+      </form>
+    </section>
+
+    <footer>
+
+      <p>Wild Circus by TEGNY Thomas - <a href="http://www.france-ioi.org/user/perso.php?sLogin=ayanto">FranceIoI</a> - <a href="https://www.sololearn.com/Profile/10886521/HTML">Sololearn<a/> - <a href="https://wildcodeschool.fr">Wild Code School</a> - 20/09/2018</p>
+
+    </footer>
+</body>
+</html>
